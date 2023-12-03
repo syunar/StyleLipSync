@@ -32,7 +32,7 @@ You can get the preprocessed frames (`.jpg`) and their pose-aware masks of the p
 For arbitrary audio, you can generate a lip-synchronizing video of the target person by running:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python run_demo.py --audio [path/to/audio] --person person_id --res_dir [path/to/save/results]
+CUDA_VISIBLE_DEVICES=0 python run_demo.py --audio [path/to/audio] --person [person/for/demo] --res_dir [path/to/save/results]
 ```
 
 You can adjust the following options for inference:
