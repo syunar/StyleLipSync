@@ -1,0 +1,8 @@
+pyyaml
+opencv-python
+pandas
+tqdm
+albumentations
+matplotlib
+requests
+ninja
