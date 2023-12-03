@@ -40,7 +40,7 @@ You can adjust the following options for inference:
 - `--person`: person for infernece, folder name in `data`. (default: AlexandriaOcasioCortez_0)
 - `--res_dir`: a directory to save results video. (default: results)
 
-The results video will be `res_dir/person#audio.mp4`. The sample audio files are provided in `data/audio`. You can also use your audio file. If you want to evaluate the lip-sync metrics (LSE-C and LSE-D), please refer to this [repostory](https://github.com/Rudrabha/Wav2Lip).
+The results video will be `res_dir/person#audio.mp4`. The sample audio files are provided in `data/audio`. You can also use your audio file. If you want to evaluate the lip-sync metrics (LSE-C and LSE-D), please refer to this [repostory](https://github.com/Rudrabha/Wav2Lip/tree/master/evaluation).
 
 
 ## Disclaimer
