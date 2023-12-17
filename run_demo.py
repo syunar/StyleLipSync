@@ -157,6 +157,8 @@ if __name__ == '__main__':
 
 	dataloader = InferenceDataLoader(opt)
 	data = dataloader.preprocess(audio_path, frame_path, mask_path)
+
+	print(data["x"].shape, data["mel"].shape, data["ref"].shape)
 	
 	demo = Demo(opt, rank=opt.rank)
 	video_path = os.path.join(opt.res_dir, f"{opt.person}#{os.path.basename(opt.audio_path)[:-4]}.mp4")

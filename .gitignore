@@ -2,3 +2,5 @@ __pycache__
 *.pth
 *.mp4
 *.zip
+
+data/*

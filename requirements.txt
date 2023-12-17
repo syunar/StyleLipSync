@@ -6,3 +6,5 @@ albumentations
 matplotlib
 requests
 ninja
+numpy
+mediapipe
